@@ -1,10 +1,10 @@
 image:
-  repository: vfarcic/devops-toolkit-series
+  repository: bitnami/dokuwiki
   tag: latest
   pullPolicy: IfNotPresent
 ingress:
   enabled: true
-  host: devopstoolkitseries.com
+  host: dokuwiki.com
 resources:
   limits:
     cpu: 100m

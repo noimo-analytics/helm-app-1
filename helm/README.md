@@ -1,1 +1,1 @@
-# golang application
+# dokuwiki application
