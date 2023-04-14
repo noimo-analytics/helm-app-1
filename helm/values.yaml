@@ -1,10 +1,10 @@
 image:
-  repository: bitnami/dokuwiki
+  repository: jupyter/scipy-notebook
   tag: latest
   pullPolicy: IfNotPresent
 ingress:
   enabled: true
-  host: dokuwiki.com
+  host: jupyter.com
 resources:
   limits:
     cpu: 100m
